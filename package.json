@@ -1,0 +1,64 @@
+{
+  "name": "dsh-theme-xuanzhi",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "宋律·宣纸（定制备份）—— 基于 dsh-theme-songgrid 的浅色单变体 DeepSeek Harness Web 主题。Upstream: yefengliu1/dsh-theme-songgrid (MIT).",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "assets",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-theme",
+    "song-grid",
+    "xuanzhi",
+    "chinese-typography"
+  ],
+  "homepage": "https://github.com/RainintoWine/dsh-theme-xuanzhi#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RainintoWine/dsh-theme-xuanzhi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RainintoWine/dsh-theme-xuanzhi/issues"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-store",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web",
+      "immediately": true
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-client-store": "^0.2.0-rc.2",
+    "@deepseek-ai/dsh-client-ui-settings": "^0.2.0-rc.2",
+    "@deepseek-ai/dsh-client-ui-slots": "^0.2.0-rc.2",
+    "@deepseek-ai/dsh-client-ui-theme": "^0.2.0-rc.2",
+    "react": "^18.2.0"
+  }
+}
