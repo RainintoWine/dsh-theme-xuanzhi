@@ -1,6 +1,6 @@
-# dsh-theme-xuanzhi（宋律 · 宣纸 · 定制备份）
+# dsh-theme-xuanzhi（宋律 · 定制）
 
-DeepSeek Harness 的浅色主题插件，基于上游「宋律 Songgrid」定制，仅保留**宣纸**浅色变体。
+DeepSeek Harness 的浅色主题插件，完全本地化、不再依赖上游加载；历史基于「宋律 Songgrid」定制，现为单文件本地主题「宋律 · 定制」。
 
 ## 上游与版权
 

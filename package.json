@@ -1,9 +1,9 @@
 {
   "name": "dsh-theme-xuanzhi",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "type": "module",
-  "description": "宋律·宣纸（定制备份）—— 基于 dsh-theme-songgrid 的浅色单变体 DeepSeek Harness Web 主题。Upstream: yefengliu1/dsh-theme-songgrid (MIT).",
+  "description": "宋律·定制 —— 完全本地化的 DSH 主题（仅浅色，不依赖上游）。",
   "license": "MIT",
   "main": "lib/index.js",
   "exports": {
